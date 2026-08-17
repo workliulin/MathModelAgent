@@ -12,6 +12,9 @@
 <p align="center">
     <a href="https://github.com/jihe520/MathModelAgent/releases/latest"><b>⬇️ Download the latest desktop app (recommended)</b></a>
 </p>
+<p align="center">
+    🎨 Sister project: <a href="https://github.com/jihe520/sci-box"><b>sci-box</b></a> — scientific figure & diagram SKILLs
+</p>
 
 ---
 
@@ -64,6 +67,21 @@ Automatically generate an award-level modeling paper
 - 🤖 Support for all models: [litellm](https://docs.litellm.ai/docs/providers)
 - 💰 Low cost: workflow agentless, no dependency on agent framework
 - 🧩 Custom templates: prompt inject for setting requirements for each subtask separately
+
+## 🎨 Sister Project: sci-box (Figures & Diagrams)
+
+The scientific plotting and diagram templates now live in their own repository, **[jihe520/sci-box](https://github.com/jihe520/sci-box)**, and can be installed and used on their own:
+
+| SKILL | Contents |
+|-------|----------|
+| `scibox-figure` | Ready-to-run replication templates for SHAP, ROC, Taylor, raincloud, chord and circular heatmap plots (Python + Matplotlib, exports PNG / PDF / SVG) |
+| `scibox-diagram` | Editable draw.io templates: five-tier technical roadmap, three-column research framework, three-column process flow, horizontal task pipeline |
+
+```
+npx skills add jihe520/sci-box
+```
+
+![figure](./docs/figure_templates.png)
 
 ## 🚀 Future Plans
 

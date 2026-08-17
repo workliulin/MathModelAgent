@@ -12,6 +12,9 @@
 <p align="center">
     <a href="https://github.com/jihe520/MathModelAgent/releases/latest"><b>⬇️ 下载最新桌面版（推荐）</b></a>
 </p>
+<p align="center">
+    🎨 姊妹项目：<a href="https://github.com/jihe520/sci-box"><b>sci-box</b></a> —— 科研图表 & 流程图 SKILL 合集
+</p>
 
 ---
 
@@ -107,7 +110,18 @@ MathModelAgent SKILL —— 直接在 Harness 中驱动的数学建模自动化�
 **🔧 可组合、可扩展**
 每个阶段是独立 Skill，可单独调用（如只跑分析、只写论文）；模板和知识库可自由扩展；支持 Typst 生态排版。
 
-skills 中包含一个科研绘图模板skill,可以绘制一些炫酷的科研图表
+### 🎨 姊妹项目：sci-box（科研图表 & 流程图）
+
+科研绘图和流程图模板已独立成仓库 **[jihe520/sci-box](https://github.com/jihe520/sci-box)**，可单独安装、单独使用：
+
+| SKILL | 内容 |
+|-------|------|
+| `scibox-figure` | SHAP / ROC / Taylor / 云雨图 / 和弦图 / 环形热图等科研图表复刻模板（Python + Matplotlib，导出 PNG / PDF / SVG） |
+| `scibox-diagram` | 可编辑的 draw.io 模板：五层技术路线图、三栏研究框架、三栏流程图、横向任务流水线 |
+
+```
+npx skills add jihe520/sci-box
+```
 
 ![figure](./docs/figure_templates.png)
 
